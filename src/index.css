@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.box {
+
+  font-size: 46px;
+  height: 40rem;
+  width: 80%;
+ 
+  border: 5px solid blue;
+  margin: 2rem;
+}
+
+.container {
+  display: flex;
+  padding: 2rem;
+}
+.heading {
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  padding-right: 2rem;
+}
+.addmembers {
+  height: 2rem;
+  width: 10rem;
+  background: blue;
+  border-radius: 22rem;
+  text-align: center;
+  padding: 0.2rem;
+}
+.text {
+  font-size: 1.2rem;
+  color: white;
+  text-align: center;
+}
+.line {
+  width: 100%;
+  height: 5px;
+  background-color: lightslategray;
+}
+
+.btn {
+  height: 2rem;
+  width: fit-content;
+  font-size: 1rem;
+  margin-left: 2rem;
+}
+.tick {
+  height: 2rem;
+  width: 2rem;
+  font-size: 1rem;
+  
+}
+
+
+
+.form {
+  display: grid;
+  grid-template-rows: repeat(1fr, 4);
+  height: 20rem;
+  max-width: fit-content;
+  padding: 2rem;
+}
+
+.content {
+  font-size: 2rem;
+  margin-top: 1rem;
+  color: black;
+}
+.label {
+  font-size: 2rem;
+  color: black;
+  font-weight: 600;
+ 
+}
+
+.details {
+  font-size: 1.5rem;
+  color: black;
+  
+}
+
+.label-bar {
+ display: grid;
+ grid-template-columns: 5rem 15rem 15rem 10rem 15rem 20rem ;
+ justify-content:left;
+ align-items:center;
+ 
+ 
+}
